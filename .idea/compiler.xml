@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wqx_rpc_client" />
+        <module name="wqx_rpc_codec" />
+        <module name="wqx_rpc_common" />
+        <module name="wqx_rpc_example" />
+        <module name="wqx_rpc_proto" />
+        <module name="wqx_rpc_service" />
+        <module name="wqx_rpc_transport" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
