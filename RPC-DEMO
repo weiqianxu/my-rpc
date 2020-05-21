@@ -2,9 +2,4 @@
 rpc远程过程调用框架--实现简单的client和server之间的调用，并且可以进行加减操作
 
 
-rpc-demo
-RPC框架实现
 
-先启动com.hx.rpc.example.Server 注册服务
-再启动com.hx.rpc.example.Client调用服务
-一个项目中包括6个主要部分  
