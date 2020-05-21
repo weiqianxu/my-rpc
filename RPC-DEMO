@@ -1,6 +1,12 @@
 # my-rpc
 rpc远程过程调用框架--实现简单的client和server之间的调用，并且可以进行加减操作
 
-这个项目主要包括6个module部分
-1、proto：协议部分
+这个项目主要包括6个主要的module、1个测试module部分
+1、proto：协议部分，主要是request请求 response相应 pear端口 类相关等等
+2、common：通用部分，一般是工具类，如反射工具类
+3、codec：序列化和反序列化部分
+4、transport：网络传输协议部分，主要是http请求，还有servlet handler holder等等
+5、server：服务端部分：主要是注册、启动、停止等操作
+6、client：客户端部分：主要是路由选择的一些策略，配置类，处理并发等等
+7、example：这个是测试的module，实现了服务的注册与启动，客户端的加减操作
 
