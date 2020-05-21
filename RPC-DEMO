@@ -10,3 +10,10 @@ rpc远程过程调用框架--实现简单的client和server之间的调用，并
 6、client：客户端部分：主要是路由选择的一些策略，配置类，处理并发等等
 7、example：这个是测试的module，实现了服务的注册与启动，客户端的加减操作
 
+
+
+RPC框架实现
+
+先启动com.weiqianxu.rpc.example.Server 注册启动服务
+再启动com.weiqianxu.rpc.example.Client 调用服务 实现功能
+
