@@ -1,5 +1,6 @@
 # my-rpc
 rpc远程过程调用框架--实现简单的client和server之间的调用，并且可以进行加减操作
 
-
+这个项目主要包括6个module部分
+1、proto：协议部分
 
